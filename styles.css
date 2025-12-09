@@ -1,0 +1,62 @@
+/* CSS VARIABLES */
+:root {
+    /* Color variables */
+    --primaryColor: red;
+    --secondaryColor: goldenrod;
+    --accentColor: forestgreen;
+    --lightColor: #fdfdfd;
+    --darkColor: #0d0d0d;
+
+    /* Spacing variables */
+    --smallSpace: 8px;
+    --mediumSpace: 16px;
+    --largeSpace: 24px;
+
+    /* Font variables */
+    --headingFont: fantasy;
+    --mainFont: Arial;
+}
+
+/* GLOBAL */
+.flex {
+    display: flex;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCenter {
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCenterBetween {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexGap {
+    gap: var(--mediumSpace);
+}
+
+/* LOKAL */
+/* Header */
+.headerNavList {
+    list-style-type: none;
+}
+
+.navListLink {
+    text-decoration: none;
+    color: var(--darkColor);
+}
+
+.header {
+    background-color: var(--secondaryColor);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--secondaryColor);
+}
